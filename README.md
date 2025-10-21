@@ -1,20 +1,20 @@
-# 📚 Library Management System - Backend API
+#  Library Management System - Backend API
 
 A RESTful API for library management system built with **ASP.NET Core 8.0** following **Clean Architecture** principles.
 
-## 🚀 Features
+## Features
 
-- ✅ **Clean Architecture** (Domain, Application, Infrastructure, API layers)
-- ✅ **JWT Authentication** (Login, Register, Token-based auth)
-- ✅ **Repository Pattern** with Entity Framework Core
-- ✅ **CRUD Operations** for Books, Authors, Categories, Users, Borrow Records
-- ✅ **AutoMapper** for object mapping
-- ✅ **Swagger UI** with JWT support
-- ✅ **Unit Tests** with xUnit and Moq
-- ✅ **Exception Handling Middleware**
-- ✅ **CORS** enabled
+- **Clean Architecture** (Domain, Application, Infrastructure, API layers)
+- **JWT Authentication** (Login, Register, Token-based auth)
+- **Repository Pattern** with Entity Framework Core
+- **CRUD Operations** for Books, Authors, Categories, Users, Borrow Records
+- **AutoMapper** for object mapping
+- **Swagger UI** with JWT support
+- **Unit Tests** with xUnit and Moq
+- **Exception Handling Middleware**
+- **CORS** enabled
 
-## 🛠️ Technologies
+## Technologies
 
 - **Framework:** ASP.NET Core 8.0
 - **Database:** SQL Server with Entity Framework Core
@@ -23,7 +23,7 @@ A RESTful API for library management system built with **ASP.NET Core 8.0** foll
 - **Documentation:** Swagger/OpenAPI
 - **Password Hashing:** BCrypt
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 LibraryManagementApplication/
@@ -34,7 +34,7 @@ LibraryManagementApplication/
 └── LibraryManagement.Tests/           # Unit Tests
 ```
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - .NET 8.0 SDK
@@ -83,14 +83,14 @@ dotnet run
 http://localhost:5000/swagger
 ```
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 cd LibraryManagement.Tests
 dotnet test
 ```
 
-## 🔐 Authentication
+## Authentication
 
 ### Register a new user
 ```http
@@ -164,12 +164,12 @@ Authorization: Bearer YOUR_JWT_TOKEN
 - `PUT /api/borrowrecord/{id}` - Update borrow record
 - `DELETE /api/borrowrecord/{id}` - Delete borrow record
 
-## 👨‍💻 Author
+## Author
 
 **Your Name**
 - GitHub: [@yourusername](https://github.com/yourusername)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
