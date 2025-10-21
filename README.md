@@ -80,7 +80,7 @@ dotnet run
 
 5. **Access Swagger UI**
 ```
-http://localhost:5000/swagger
+http://localhost:5172/swagger
 ```
 
 ## Running Tests
